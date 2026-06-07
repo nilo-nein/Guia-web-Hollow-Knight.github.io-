@@ -1,0 +1,190 @@
+/* =========================
+   CONFIGURACIÓN GENERAL
+========================= */
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background-color:#070A12;
+    color:#E6E6E6;
+    line-height:1.6;
+}
+
+/* =========================
+   ENCABEZADO
+========================= */
+
+.encabezado{
+    text-align:center;
+    padding:80px 20px;
+    background-color:#0B1020;
+    border-bottom:2px solid #2C3E66;
+}
+
+.encabezado h1{
+    font-size:40px;
+    color:#CFE3FF;
+}
+
+/* =========================
+   CONTENEDOR PRINCIPAL
+========================= */
+
+.zonas{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+/* =========================
+   ARTÍCULOS BASE
+========================= */
+
+.zonas article{
+    padding:25px;
+    margin:30px 0;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.zonas article:hover{
+    transform:scale(1.01);
+}
+
+/* =========================
+   IMÁGENES
+========================= */
+
+.zonas img{
+    width:100%;
+    max-width:800px;
+    display:block;
+    margin:20px auto;
+    border-radius:10px;
+}
+
+/* =========================
+   ZONAS (COLORES POR ÁREA)
+========================= */
+
+/* Paso del Rey */
+.paso-rey{
+    background-color:#1A1F2E;
+    border-left:6px solid #8FA3C7;
+}
+
+/* Bocasucia */
+.bocasucia{
+    background-color:#2A2F1F;
+    border-left:6px solid #C2B280;
+}
+
+/* Cruces Olvidados */
+.cruces-olvidados{
+    background-color:#1B1B1B;
+    border-left:6px solid #A0A0A0;
+}
+
+/* Sendero Verde */
+.camino-verde{
+    background-color:#1A2E1D;
+    border-left:6px solid #4CAF50;
+}
+
+/* Cañón Nublado */
+.cañon-nublado{
+    background-color:#1C2233;
+    border-left:6px solid #9BB7D4;
+}
+
+/* Páramos Fúngicos */
+.fungicos{
+    background-color:#1E2A1E;
+    border-left:6px solid #7CFF7C;
+}
+
+/* Cumbres de Cristal */
+.cumbres-cristal{
+    background-color:#1A1F2B;
+    border-left:6px solid #66CCFF;
+}
+
+/* Ciudad de Lágrimas */
+.ciudad-lagrimas{
+    background-color:#121826;
+    border-left:6px solid #A9C7FF;
+}
+
+/* Acantilados Aulladores */
+.acantilados-aulladores{
+    background-color:#1A1A2E;
+    border-left:6px solid #8E7CC3;
+}
+
+/* Canales Reales */
+.canales-reales{
+    background-color:#0F1B1F;
+    border-left:6px solid #4DB6AC;
+}
+
+/* Límite del Reino */
+.limite-reino{
+    background-color:#1B1B1B;
+    border-left:6px solid #B0B0B0;
+}
+
+/* Coliseo de los Insensatos */
+.coliseo-insensatos{
+    background-color:#2A1A1A;
+    border-left:6px solid #FF5252;
+}
+
+/* Cuenca Antigua */
+.cuenca-antigua{
+    background-color:#1A1410;
+    border-left:6px solid #8D6E63;
+}
+
+/* Jardines de la Reina */
+.jardines-reina{
+    background-color:#1A2E22;
+    border-left:6px solid #81C784;
+}
+
+/* La Colmena */
+.colmena{
+    background-color:#2E2A1A;
+    border-left:6px solid #FFD54F;
+}
+
+/* Nido Profundo */
+.nido-profundo{
+    background-color:#0A0A0F;
+    border-left:6px solid #444;
+}
+
+/* Palacio Blanco */
+.palacio-blanco{
+    background-color:#F2F2F2;
+    color:#111;
+    border-left:6px solid #FFFFFF;
+}
+
+/* Sendero del Dolor */
+.sendero-dolor{
+    background-color:#120A1A;
+    border-left:6px solid #C084FC;
+}
+
+/* Tierras de Reposo */
+.tierras-reposo{
+    background-color:#0F1C2E;
+    border-left:6px solid #7AA2E3;
+}
+
+/* Abismo */
+.abismo{
+    background-color:#050505;
+    border-left:6px solid #2B2B2B;
+}
