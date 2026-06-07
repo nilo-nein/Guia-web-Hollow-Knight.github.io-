@@ -1,0 +1,141 @@
+/* =========================
+   CONFIGURACIÓN GENERAL
+========================= */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #070A12;
+    color: #E6E6E6;
+}
+
+/* =========================
+   ENCABEZADO
+========================= */
+
+.encabezado {
+    text-align: center;
+    padding: 70px 20px;
+    background-color: #0B1020;
+    border-bottom: 2px solid #2C3E66;
+}
+
+.encabezado h1 {
+    font-size: 42px;
+    color: #CFE3FF;
+}
+
+/* =========================
+   CONTENEDOR PRINCIPAL
+========================= */
+
+.jefes {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* =========================
+   TARJETAS BASE
+========================= */
+
+.jefe {
+    background-color: #121826;
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 14px;
+    border-left: 6px solid #4AA3FF;
+    transition: 0.25s;
+}
+
+.jefe:hover {
+    transform: scale(1.01);
+}
+
+/* =========================
+   TITULOS
+========================= */
+
+.jefe h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+/* =========================
+   TEXTO
+========================= */
+
+.jefe p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #D6E5F5;
+}
+
+/* =========================
+   IMÁGENES
+========================= */
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.imagenes img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.1);
+}
+
+/* =========================
+   TIPOS DE JEFES
+========================= */
+
+/* 🔴 Infectados / caos */
+.jefe.infectado {
+    border-left: 6px solid #FF5A1F;
+    background-color: #1A0F08;
+}
+
+/* ⚪ Oníricos / espíritus */
+.jefe.onirico {
+    border-left: 6px solid #A9C7FF;
+    background-color: #101A33;
+}
+
+/* 🟣 Cristal */
+.jefe.cristal {
+    border-left: 6px solid #7FA6D9;
+    background-color: #151826;
+}
+
+/* 🟢 Bestias / naturaleza */
+.jefe.natural {
+    border-left: 6px solid #6DFF9A;
+    background-color: #0F1A12;
+}
+
+/* ⚫ Oscuro / vacío */
+.jefe.vacio {
+    border-left: 6px solid #8C8C8C;
+    background-color: #0F0F14;
+}
+
+/* 🟡 Coliseo / combate */
+.jefe.coliseo {
+    border-left: 6px solid #FFD166;
+    background-color: #1A1620;
+}
+
+/* =========================
+   ETIQUETA ONÍRICA (extra opcional)
+========================= */
+
+.onirico {
+    color: #A9C7FF;
+    font-style: italic;
+}
