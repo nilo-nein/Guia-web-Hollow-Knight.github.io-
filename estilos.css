@@ -131,7 +131,6 @@ a{
     border-radius:12px;
 }
 
-/* ===== INTRODUCCIÓN ===== */
 
 
 /* =========================
@@ -264,7 +263,7 @@ body{
    IMÁGENES
 ========================= */
 
-img{
+.img{
     width:100%;
     margin-top:15px;
     border-radius:10px;
