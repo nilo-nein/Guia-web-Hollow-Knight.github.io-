@@ -1,179 +1,204 @@
-/* =========================
-   BASE GENERAL
-========================= */
-
-body{
-    margin:0;
-    padding:0;
-    font-family: Arial, sans-serif;
-    background-color:#070A12;
-    color:#E6E6E6;
-    line-height:1.6;
+/* ===== CONFIGURACIÓN GENERAL ===== */ 
+body { background-color:#02030A;
+color:#D6E5F5; font-family:Arial,
+sans-serif; margin:0; padding:0; 
+} 
+/* ===== ENCABEZADO ===== */ 
+.encabezado
+{ background-color:#050B1A;
+ text-align:center;
+ padding:80px 50px;
+ max-width:1200px; 
+ margin:auto; 
+} 
+/* ===== INTRODUCCIÓN ===== */ 
+.introduccion
+{ background-color:#232C59;
+text-align:left;
+ padding:40px; 
+ max-width:1200px;
+ margin:auto; 
+} 
+/* ===== MENÚ PRINCIPAL ===== */
+.menu-principal
+{ 
+background-color:#556597;
+text-align:center; 
+padding:40px;
+max-widht:1200px;
+margin:auto;
+} 
+/* ===== PIE DE PÁGINA ===== */
+.pie-pagina
+{ 
+background-color:#02030A;
+text-align:left;
+padding:20px;
+} 
+/* ===== TÍTULO PRINCIPAL ===== */
+h1
+{ 
+font-size:60px;
+margin-bottom:10px;
+} 
+/* ===== SUBTÍTULOS ===== */
+h2{ font-size:35px; 
+margin-bottom:20px; 
+} 
+/* ===== PÁRRAFOS ===== */
+p{ 
+font-size:20px;
+line-height:1.6; 
 }
 
-/* =========================
-   TEXTOS GENERALES
-========================= */
-
-h1{
-    font-size:80px;
-    color:#CFE3FF;
+/* ===== ENLACES ===== */
+a { 
+color:#D6E5F5;
+text-decoration:none;
+font-size:22px;
+} 
+/* ===== TARJETAS DEL MENÚ ===== */
+.enlace
+{ 
+background-color:#232C59;
+   width:350px;
+   margin:25px auto;
+   border-radius:10px; 
+   overflow:hidden;
+} 
+.enlace:hover{ background-color:#6B7CA8;
+} 
+.enlace a
+{ 
+display:block;
+padding:20px; 
+color:#D6E5F5;
+text-decoration:none;
+font-size:28px; 
 }
-
-h2{
-    font-size:30px;
-}
-
-p{
-    font-size:18px;
-}
-
-/* =========================
-   ENCABEZADO (HOME + HISTORIA)
-========================= */
-
-.encabezado{
-    text-align:center;
-    padding:80px 20px;
-    background-color:#0B1020;
-    border-bottom:2px solid #2C3E66;
-}
-
-/* =========================
-   PÁGINA PRINCIPAL
-========================= */
-
-.introduccion{
-    background-color:#232C59;
-    text-align:left;
-    padding:40px;
-    max-width:1000px;
-    margin:40px auto;
-    border-radius:12px;
-}
-
-.introduccion img{
-    width:100%;
-    border-radius:12px;
-    margin-top:15px;
-}
-
-/* =========================
-   MENÚ PRINCIPAL
-========================= */
-
-.menu-principal{
-    text-align:center;
-    padding:40px;
-    max-width:1000px;
-    margin:40px auto;
-    background-color:#0B1020;
-    border-radius:12px;
-}
-
-/* TARJETAS */
-.enlace{
-    background-color:#232C59;
-    width:320px;
-    margin:20px auto;
-    border-radius:10px;
-    overflow:hidden;
-    transition:0.2s;
-}
-
-.enlace:hover{
-    background-color:#6B7CA8;
-    transform:scale(1.02);
-}
-
-.enlace a{
-    display:block;
-    padding:18px;
-    color:#D6E5F5;
-    text-decoration:none;
-    font-size:22px;
-}
-
-/* =========================
-   HISTORIA
-========================= */
-
-.historia-principal{
-    max-width:1000px;
-    margin:auto;
-    padding:20px;
-}
-
-.historia-principal article{
-    padding:25px;
-    margin:30px 0;
-    border-radius:12px;
-    transition:0.3s;
-}
-
-.historia-principal article:hover{
-    transform:scale(1.01);
-}
-
-/* IMÁGENES HISTORIA */
+/* ===== IMÁGENES DE TARJETAS ===== */
+.enlace img
+{ 
+width:100%; 
+height:170px;
+object-fit:cover;
+border-radius:10px 10px 0 0;
+display:block; 
+} 
 .historia-principal img{
-    width:100%;
-    margin-top:15px;
-    border-radius:10px;
+width:100%; 
+max-width:800px;
+display:block;
+margin:30px auto;
+border-radius:10px;
+} 
+/* ===== CONTENEDOR GENERAL ===== */
+.historia-principal article
+{ 
+padding:25px;
+margin:30px 0;
+border-radius:12px; 
+} 
+/* ========================= CONFIGURACIÓN GENERAL ========================= */
+body
+{ 
+margin:0;
+padding:0;
+font-family: Arial, sans-serif;
+background-color:#070A12;
+color:#E6E6E6;
+line-height:1.6;
 }
-
-/* =========================
-   SECCIONES HISTORIA
-========================= */
-
-.introduccion{
-    background-color:#101A33;
-    border-left:6px solid #7FA6D9;
+/* ========================= ENCABEZADO ========================= */ 
+.encabezado
+{ 
+text-align:center;
+padding:80px 20px;
+background-color:#0B1020;
+border-bottom:2px solid #2C3E66;
+} 
+.encabezado h1
+{ 
+font-size:40px; 
+color:#CFE3FF;
 }
-
-.rey-palido{
-    background-color:#151826;
-    border-left:6px solid #E6E6E6;
+/* ========================= CONTENEDOR PRINCIPAL ========================= */
+.historia-principal
+{ 
+max-width:1000px;
+margin:auto;
+padding:20px; } 
+/* ========================= ARTÍCULOS BASE ========================= */
+.historia-principal article
+{
+padding:25px;
+margin:30px 0;
+border-radius:12px;
+transition:0.3s; 
 }
-
-.edad-de-oro{
-    background-color:#1A2B4A;
-    border-left:6px solid #A9C7FF;
+.historia-principal article:hover{ transform:scale(1.01);}
+/* ========================= INTRODUCCIÓN ========================= */
+.introduccion
+{ 
+background-color:#101A33;
+border-left:6px solid #7FA6D9; 
 }
-
-.infeccion{
-    background-color:#1A0F08;
-    border-left:6px solid #FF8A2A;
+/* ========================= REY PÁLIDO ========================= */
+.rey-palido
+{ 
+background-color:#151826;
+border-left:6px solid #E6E6E6;
+} 
+/* ========================= EDAD DE ORO ========================= */ 
+.edad-de-oro
+{
+background-color:#1A2B4A;
+border-left:6px solid #A9C7FF;
+} 
+/* ========================= INFECCIÓN ========================= */
+.infeccion
+{
+background-color:#1A0F08;
+border-left:6px solid #FF8A2A; 
 }
-
-.recipientes{
-    background-color:#0F0F14;
-    border-left:6px solid #8C8C8C;
+/* ========================= RECIPIENTES ========================= */
+.recipientes
+{ 
+background-color:#0F0F14; 
+border-left:6px solid #8C8C8C;
 }
-
-.vasija-pura{
-    background-color:#121826;
-    border-left:6px solid #D9D9FF;
+/* ========================= VASIJA PURA ========================= */
+.vasija-pura
+{ 
+background-color:#121826;
+border-left:6px solid #D9D9FF;
 }
-
-.regreso-infeccion{
-    background-color:#140A08;
-    border-left:6px solid #FF5A1F;
+/* ========================= REGRESO INFECCIÓN ========================= */ 
+.regreso-infeccion
+{
+background-color:#140A08; 
+border-left:6px solid #FF5A1F; 
 }
-
-.comienzo{
-    background-color:#0A1220;
-    border-left:6px solid #4AA3FF;
+/* ========================= COMIENZO ========================= */ 
+.comienzo
+{
+background-color:#0A1220;
+border-left:6px solid #4AA3FF;
 }
-
-/* =========================
-   FOOTER
-========================= */
-
-.pie-pagina{
-    text-align:center;
-    padding:30px;
-    background-color:#05060A;
-    border-top:2px solid #2C3E66;
-    font-size:14px;
+/* ========================= IMÁGENES ========================= */
+.img
+{
+width:100%;
+margin-top:15px;
+border-radius:10px;
+border:2px solid rgba(255,255,255,0.1);
+}
+/* ========================= FOOTER ========================= */
+.pie-pagina
+{
+text-align:center;
+padding:30px;
+background-color:#05060A;
+border-top:2px solid #2C3E66;
+font-size:14px; 
 }
