@@ -1,0 +1,57 @@
+/* =========================
+   PÁGINA PRINCIPAL (HOME)
+========================= */
+
+/* INTRO PRINCIPAL */
+.introduccion{
+    background-color:#232C59;
+    text-align:left;
+    padding:40px;
+    max-width:1000px;
+    margin:40px auto;
+    border-radius:12px;
+}
+
+/* IMAGEN PRINCIPAL (PORTADA) */
+.introduccion img{
+    width:100%;
+    max-width:900px;
+    display:block;
+    margin:20px auto 0 auto;
+    border-radius:12px;
+    border:2px solid rgba(255,255,255,0.1);
+}
+
+/* MENÚ PRINCIPAL */
+.menu-principal{
+    text-align:center;
+    padding:40px 20px;
+    max-width:1000px;
+    margin:40px auto;
+    background-color:#0B1020;
+    border-radius:12px;
+    border:1px solid #2C3E66;
+}
+
+/* TARJETAS DEL MENÚ */
+.enlace{
+    background-color:#232C59;
+    width:320px;
+    margin:20px auto;
+    border-radius:10px;
+    overflow:hidden;
+    transition:0.2s;
+}
+
+.enlace:hover{
+    background-color:#6B7CA8;
+    transform:scale(1.02);
+}
+
+.enlace a{
+    display:block;
+    padding:18px;
+    color:#D6E5F5;
+    text-decoration:none;
+    font-size:24px;
+}
