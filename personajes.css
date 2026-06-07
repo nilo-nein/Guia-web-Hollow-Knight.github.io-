@@ -112,3 +112,28 @@ body{
     color: gold;
 }
 
+.misterioso{
+    background: linear-gradient(
+        180deg,
+        #34104f,
+        #180020
+    );
+
+    border: 3px solid #c86cff;
+
+    box-shadow: 0 0 20px #c86cff;
+}
+
+.misterioso h2{
+    color: #df9fff;
+}
+
+.pie-pagina{
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: #1b1b1b;
+
+    border-top: 3px solid #444;
+}
