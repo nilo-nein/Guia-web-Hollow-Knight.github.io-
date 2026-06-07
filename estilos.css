@@ -114,11 +114,6 @@ a{
     display:block;
 }
 
-.historia-principal{
-    max-width:1000px;
-    margin:auto;
-    padding:40px;
-}
 
 .historia-principal img{
     width:100%;
@@ -138,36 +133,152 @@ a{
 
 /* ===== INTRODUCCIÓN ===== */
 
-.introduccion{
-    background-color:#101A35;
-    border-left:6px solid #7DA7D9;
+
+/* =========================
+   CONFIGURACIÓN GENERAL
+========================= */
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background-color:#070A12;
+    color:#E6E6E6;
+    line-height:1.6;
 }
 
-/* ===== REY PÁLIDO ===== */
+/* =========================
+   ENCABEZADO
+========================= */
+
+.encabezado{
+    text-align:center;
+    padding:80px 20px;
+    background-color:#0B1020;
+    border-bottom:2px solid #2C3E66;
+}
+
+.encabezado h1{
+    font-size:40px;
+    color:#CFE3FF;
+}
+
+/* =========================
+   CONTENEDOR PRINCIPAL
+========================= */
+
+.historia-principal{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+/* =========================
+   ARTÍCULOS BASE
+========================= */
+
+.historia-principal article{
+    padding:25px;
+    margin:30px 0;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.historia-principal article:hover{
+    transform:scale(1.01);
+}
+
+/* =========================
+   INTRODUCCIÓN
+========================= */
+
+.introduccion{
+    background-color:#101A33;
+    border-left:6px solid #7FA6D9;
+}
+
+/* =========================
+   REY PÁLIDO
+========================= */
 
 .rey-palido{
-    background-color:#141824;
-    border-left:6px solid #E8E8E8;
+    background-color:#151826;
+    border-left:6px solid #E6E6E6;
 }
 
-/* ===== EDAD DE ORO ===== */
+/* =========================
+   EDAD DE ORO
+========================= */
 
 .edad-de-oro{
-    background-color:#182548;
-    border-left:6px solid #AFC6E9;
+    background-color:#1A2B4A;
+    border-left:6px solid #A9C7FF;
 }
 
-/* ===== INFECCIÓN ===== */
+/* =========================
+   INFECCIÓN
+========================= */
 
 .infeccion{
-    background-color:#1A1008;
-    border-left:6px solid #F28C28;
+    background-color:#1A0F08;
+    border-left:6px solid #FF8A2A;
 }
 
-/* ===== RECIPIENTES ===== */
+/* =========================
+   RECIPIENTES
+========================= */
 
 .recipientes{
-    background-color:#0D0D12;
-    border-left:6px solid #8A8A8A;
+    background-color:#0F0F14;
+    border-left:6px solid #8C8C8C;
 }
 
+/* =========================
+   VASIJA PURA
+========================= */
+
+.vasija-pura{
+    background-color:#121826;
+    border-left:6px solid #D9D9FF;
+}
+
+/* =========================
+   REGRESO INFECCIÓN
+========================= */
+
+.regreso-infeccion{
+    background-color:#140A08;
+    border-left:6px solid #FF5A1F;
+}
+
+/* =========================
+   COMIENZO
+========================= */
+
+.comienzo{
+    background-color:#0A1220;
+    border-left:6px solid #4AA3FF;
+}
+
+/* =========================
+   IMÁGENES
+========================= */
+
+img{
+    width:100%;
+    margin-top:15px;
+    border-radius:10px;
+    border:2px solid rgba(255,255,255,0.1);
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.pie-pagina{
+    text-align:center;
+    padding:30px;
+    background-color:#05060A;
+    border-top:2px solid #2C3E66;
+    font-size:14px;
+}
