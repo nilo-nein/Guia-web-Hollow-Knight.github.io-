@@ -1,0 +1,132 @@
+body{
+    background-color: #0b0f18;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ==================== ENCABEZADO ==================== */
+
+.encabezado{
+    text-align: center;
+    padding: 40px;
+}
+
+.encabezado h1{
+    font-size: 3rem;
+    color: #d9e8ff;
+    text-shadow: 0 0 20px #6ca8ff;
+}
+
+.encabezado p{
+    max-width: 900px;
+    margin: auto;
+    font-size: 1.1rem;
+    color: #cfcfcf;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.categoria{
+    margin: 60px 0;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.categoria h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.habilidad{
+    background-color: rgba(255,255,255,0.05);
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    margin: 30px auto;
+
+    max-width: 1000px;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+
+    transition: 0.3s;
+}
+
+.habilidad:hover{
+    transform: translateY(-5px);
+}
+
+.habilidad img{
+    display: block;
+
+    width: 220px;
+
+    height: 220px;
+
+    object-fit: contain;
+
+    margin: 20px auto;
+}
+
+.habilidad h3{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.habilidad h4{
+    color: #ffd670;
+    margin-top: 20px;
+}
+
+.movimiento{
+    background: rgba(50,100,255,0.08);
+    border: 2px solid #4d7eff;
+}
+
+.movimiento h2{
+    color: #82a8ff;
+}
+
+.onirico{
+    background: rgba(140,80,255,0.08);
+    border: 2px solid #9a6eff;
+}
+
+.onirico h2{
+    color: #b993ff;
+}
+
+.aguijon{
+    background: rgba(255,215,0,0.08);
+    border: 2px solid gold;
+}
+
+.aguijon h2{
+    color: gold;
+}
+
+.avanzado{
+    background: rgba(60,180,100,0.08);
+    border: 2px solid #52d17c;
+}
+
+.avanzado h2{
+    color: #8df5b0;
+}
+
+footer{
+    text-align: center;
+
+    margin-top: 60px;
+
+    padding: 20px;
+
+    background-color: #05070d;
+
+    border-top: 2px solid #222;
+}
