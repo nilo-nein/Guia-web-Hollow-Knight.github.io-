@@ -256,3 +256,18 @@ footer{
 
     box-shadow: 0 0 12px #6ca8ff;
 }
+
+body{
+    background:
+    linear-gradient(
+        180deg,
+        #140d1f,
+        #24163b,
+        #140d1f
+    );
+}
+
+.encabezado h1{
+    color: #d9b8ff;
+    text-shadow: 0 0 20px #a25cff;
+}
