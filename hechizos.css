@@ -172,3 +172,21 @@ height: 220px;
 
     box-shadow: 0 0 12px #6ca8ff;
 }
+
+body{
+    background:
+    linear-gradient(
+        180deg,
+        #060606,
+        #111111,
+        #060606
+    );
+}
+
+.encabezado h1{
+    color: white;
+
+    text-shadow:
+        0 0 10px white,
+        0 0 25px #d9d9d9;
+}
