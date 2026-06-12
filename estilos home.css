@@ -208,3 +208,9 @@ background-color:#05060A;
 border-top:2px solid #2C3E66;
 font-size:14px; 
 }
+
+.menu .activo{
+    background-color: #28446e;
+
+    box-shadow: 0 0 12px #6ca8ff;
+}
