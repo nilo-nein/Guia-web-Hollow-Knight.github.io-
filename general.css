@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+
+    background:
+    linear-gradient(
+        180deg,
+        #090d15 0%,
+        #121b2d 50%,
+        #090d15 100%
+    );
+
+    color: white;
+
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.menu{
+    background-color: rgba(0,0,0,0.4);
+
+    backdrop-filter: blur(8px);
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    padding: 15px;
+
+    border-bottom: 2px solid #1d2a40;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+}
+
+.menu a{
+    color: #d9e8ff;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    padding: 10px 15px;
+
+    border-radius: 10px;
+
+    transition: all .3s ease;
+}
+
+.menu a:hover{
+    background-color: #233a5d;
+
+    box-shadow: 0 0 15px #6ca8ff;
+
+    transform: translateY(-2px);
+}
+
+.encabezado{
+    text-align: center;
+
+    padding: 50px 20px;
+}
+
+.encabezado h1{
+    font-size: 3rem;
+
+    color: #d9e8ff;
+
+    text-shadow:
+        0 0 10px #6ca8ff,
+        0 0 20px #6ca8ff;
+}
+
+.encabezado p{
+    max-width: 900px;
+
+    margin: auto;
+
+    font-size: 1.15rem;
+
+    color: #d0d0d0;
+
+    line-height: 1.7;
+}
+
+article{
+    transition: all .3s ease;
+}
+
+article:hover{
+    transform: translateY(-6px);
+}
+
+img{
+    border-radius: 15px;
+
+    box-shadow:
+        0 0 15px rgba(255,255,255,0.08);
+
+    transition: .3s;
+}
+
+img:hover{
+    transform: scale(1.03);
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-track{
+    background: #0a0f18;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #2d4b78;
+
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #4f7ec4;
+}
+
+::selection{
+    background: #6ca8ff;
+
+    color: white;
+}
+
+footer{
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 50px;
+
+    background-color: #05070d;
+
+    border-top: 2px solid #1d2a40;
+}
+
+body{
+    animation: aparecer 0.8s ease;
+}
+
+@keyframes aparecer{
+
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
