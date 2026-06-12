@@ -88,6 +88,50 @@ main{
     border: 2px solid #4d7eff;
 }
 
+/* ==================== SUEÑOS ==================== */
+
+.suenos{
+    background: rgba(140,80,255,0.08);
+    border: 2px solid #9a6eff;
+}
+
+.suenos h2{
+    color: #c9a7ff;
+}
+
+/* ==================== COMBATE ==================== */
+
+.combate{
+    background: rgba(255,215,0,0.08);
+    border: 2px solid gold;
+}
+
+.combate h2{
+    color: gold;
+}
+
+/* ==================== RECURSOS ==================== */
+
+.recursos{
+    background: rgba(60,180,100,0.08);
+    border: 2px solid #52d17c;
+}
+
+.recursos h2{
+    color: #8df5b0;
+}
+
+/* ==================== SISTEMAS ==================== */
+
+.sistemas{
+    background: rgba(255,120,80,0.08);
+    border: 2px solid #ff7b52;
+}
+
+.sistemas h2{
+    color: #ffb39a;
+}
+
 .movimiento h2{
     color: #82a8ff;
 }
@@ -129,4 +173,25 @@ footer{
     background-color: #05070d;
 
     border-top: 2px solid #222;
+}
+
+.habilidad{
+    background-color: rgba(255,255,255,0.06);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 1000px;
+
+    box-shadow:
+        0 0 10px rgba(0,0,0,0.5),
+        0 0 20px rgba(255,255,255,0.05);
+
+    transition: all 0.3s ease;
+}
+
+.habilidad:hover{
+    transform: translateY(-8px);
+    box-shadow:
+        0 0 15px rgba(0,0,0,0.6),
+        0 0 25px rgba(255,255,255,0.1);
 }
